@@ -12,9 +12,8 @@ const Film = ({ url }) => {
     useEffect(() => {
         getFilm()
     })
-    return (
-        <li className="list-group-item">{film.title}</li>
-    )
+    
+    return <li className="list-group-item">{film.title}</li>
 }
 
 export default Film;
